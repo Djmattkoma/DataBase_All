@@ -1,4 +1,0 @@
-﻿CREATE TABLE [dbo].[Group]
-(
-	[group] VARCHAR(20) NOT NULL PRIMARY KEY
-)

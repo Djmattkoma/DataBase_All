@@ -55,13 +55,25 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Keys" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Group_1.sql" />
-    <Build Include="Categori.sql" />
-    <Build Include="Timespam.sql" />
-    <Build Include="Timetable.sql" />
-    <Build Include="Lesson.sql" />
-    <Build Include="Monday.sql" />
+    <Build Include="Tables\Categori.sql" />
+    <Build Include="Tables\Group.sql" />
+    <Build Include="Tables\Tuesday.sql" />
+    <Build Include="Tables\Wendesday.sql" />
+    <Build Include="Tables\Thurday.sql" />
+    <Build Include="Tables\Friday.sql" />
+    <Build Include="Tables\Saturday.sql" />
+    <Build Include="Tables\Sunday.sql" />
+    <Build Include="Tables\Class.sql" />
+    <Build Include="Tables\Seven.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Lesson.sql" />
+    <Build Include="Tables\Monday.sql" />
+    <Build Include="Tables\Timespam.sql" />
+    <Build Include="Tables\Timetable.sql" />
   </ItemGroup>
 </Project>
